@@ -20,7 +20,14 @@ namespace Figures
 
         public override void equals()
         {
-        
+            if (figura.GetType() == typeof(Rectangle))
+           {
+                Console.WriteLine(true);
+           }
+            else
+            {
+                Console.WriteLine(false);
+            }
         }
     }
 }
